@@ -1,0 +1,36 @@
+*{
+    font-family: "Poppins";
+}
+
+.navbar-brand {
+    font-weight: 900;
+}
+
+.carousel-caption {
+    margin-bottom: 400px;
+}
+
+.carousel-caption h5 {
+    font-size: 4.5rem;
+}
+
+.carousel-caption p {
+    font-size: 1.5rem;
+}
+
+marquee {
+    color: white;
+    font-size: 1.2rem;
+    /* text-indent: 50px; */
+}
+
+.marquee-container {
+    height: 60px; /* Set the height of the marquee container */
+    line-height: 60px; /* Set the line height equal to the container height */
+    overflow: hidden; /* Hide overflow */
+}
+
+.marquee-text {
+    display: inline-block; /* Make the text inline-block */
+    vertical-align: middle; /* Vertically align the text */
+}

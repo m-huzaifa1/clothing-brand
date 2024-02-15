@@ -23,6 +23,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./phone.css">
 
     <title>Style Haven | Discover Your Signature Look</title>
 </head>
@@ -37,19 +38,19 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="align-justify fa-solid fa-bars"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mx-auto">
+                <ul class="navbar-nav mb-lg-0 mx-auto">
                     <li class="nav-item mx-2">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link active" href="#home">Home</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link active" href="#">About</a>
+                        <a class="nav-link active" href="#about">About</a>
                     </li>
                     <li class="nav-item dropdown mx-2">
-                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link active dropdown-toggle" href="#catalog" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Catalog
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -59,17 +60,15 @@
                         </ul>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link active" href="#">Contact Us</a>
+                        <a class="nav-link active" href="#contact-us">Contact Us</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link active" href="#">Customize</a>
+                        <a class="nav-link active" href="#customize">Customize</a>
                     </li>
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-4 rounded-pill" type="search" placeholder="Search..."
                         aria-label="Search">
-                    <!-- <i class="fa-solid fa-magnifying-glass position-absolute top-50 translate-middle"></i> -->
-                    <!-- <button class="btn btn-outline-dark rounded-pill" type="submit">Search</button> -->
                 </form>
             </div>
             <a href=""><i class="fa-solid fa-bag-shopping me-4 fs-4 link-dark"></i></a>
@@ -145,49 +144,38 @@
 
     <!-- marquee end -->
 
+    <div>
+        <h1 class="container my-4 fw-bold">NEW ARRIVALS</h1>
+    </div>
+
     <!-- cards start -->
 
-    <div class="container-fluid">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="./img/model 1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="./img/model 4 copy.jpg" class="card-img-top" alt="...">
+                    <div class="card-img-overlay">
+                        <h2 class="card-title text-light">UNDER $100.00</h2>
+                        <button class="btn btn-outline-light rounded-pill">Shop Now</button>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card h-100">
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="card">
                     <img src="./img/model 2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                    <div class="card-img-overlay">
+                        <h2 class="card-title text-light">MAN</h2>
+                        <button class="btn btn-outline-light rounded-pill">Shop Now</button>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card h-100">
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="card">
                     <img src="./img/model 3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to show that equal
-                            height
-                            action.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                    <div class="card-img-overlay">
+                        <h2 class="card-title text-light">WOMAN</h2>
+                        <button class="btn btn-outline-light rounded-pill">Shop Now</button>
                     </div>
                 </div>
             </div>

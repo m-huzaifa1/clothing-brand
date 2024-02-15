@@ -1,0 +1,29 @@
+@media (max-width : 1200px) {
+    .card-img-overlay {
+        margin-top: 320px;
+    }
+}
+
+@media (max-width : 992px) {
+    .card-img-overlay {
+        margin-top: 380px;
+    }
+}
+
+@media (max-width : 768px) {
+    .card-img-overlay {
+        margin-top: 250px;
+    }
+}
+
+@media (max-width : 576px) {
+    .card-img-overlay {
+        margin-top: 580px;
+    }
+}
+
+@media (max-width : 490px) {
+    .card-img-overlay {
+        margin-top: 490px;
+    }
+}

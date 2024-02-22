@@ -10,20 +10,26 @@
     }
 }
 
-@media (max-width : 768px) {
+@media (max-width : 769px) {
     .card-img-overlay {
-        margin-top: 250px;
+        margin-top: 360px;
     }
 }
 
-@media (max-width : 576px) {
-    .card-img-overlay {
-        margin-top: 580px;
-    }
-}
-
-@media (max-width : 490px) {
+@media (max-width : 430px) {
     .card-img-overlay {
         margin-top: 490px;
+    }
+}
+
+@media (max-width : 415px) {
+    .card-img-overlay {
+        margin-top: 450px;
+    }
+}
+
+@media (max-width : 361px) {
+    .card-img-overlay {
+        margin-top: 380px;
     }
 }

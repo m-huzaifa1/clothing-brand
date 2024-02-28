@@ -49,3 +49,7 @@ marquee {
 .btn-outline-light:focus {
     box-shadow: none;
 }
+
+.last-section {
+    margin-top: 0;
+}
